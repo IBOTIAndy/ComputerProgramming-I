@@ -1,4 +1,5 @@
-#
+#002 一元二次方程式，ax^2 + bx + c：輸入a, b, c，求實根
+#IBOTIAndy 2018/09/18
 import math #引入數學式(math)來使用開根號(sqrt())
 
 def RealNumber(a, b, c):    #求 aX^2 + bx + c = 0 的實根
@@ -19,5 +20,5 @@ def main():
     c = int(input())        #
     x1, x2 = Math(a, b, c)  #求實根的數學式
     output(x1, x2)          #輸出
-#---------------------------------
+#=================================
 main()
